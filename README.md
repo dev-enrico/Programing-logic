@@ -32,8 +32,6 @@ Repositório iniciado com o intuito de guardar um conjunto de resoluções para 
 
 - [Visite a playlist que ensina em vídeo online os problemas criados por Gustavo Neitzke](https://www.youtube.com/playlist?list=PLSHNk_yA5fNgU8suEO97pQlVFvtvHpWNG)
 
-- [Visite o site da XPE, e caso tenha uma conta e faça parte do Minicamp Programação Básica em Javascript acesse o enunciado do desafio prático 1](https://www.xpeducacao.com.br/?gclid=Cj0KCQiAofieBhDXARIsAHTTldpa87mcch8BFm6biIleRXLfV88JcdLNmho-RRTAxOUQZYH_joWSqdsaAqHpEALw_wcB)
-
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
