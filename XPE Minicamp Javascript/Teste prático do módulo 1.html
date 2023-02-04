@@ -1,0 +1,49 @@
+<html>
+    <script>
+        /*
+        
+        Enunciado do Exercício:
+
+        O programa deverá receber um número como parâmetro, e realizar a soma de todos os múltiplos
+        de 3 ou 5 menores que o número informado. Ao chamar o programa, ele deve imprimir no
+        console do Google Chrome a soma encontrada.
+
+        Exemplo de saída considerando o número 20:
+        78
+        Exemplo de saída considerando o número 30:
+        195
+
+        */
+
+            somaMultiplos3ou5(numero);
+            function somaMultiplos3ou5(limite) {
+                var multiplosrepetidos = [];
+                let multiplosde3 = 0;
+                let multiplosde5 = 0;
+                for(i =0;i < limite;i++) {
+                    if(i % 3 === 0) {
+                        multiplosrepetidos.push (i);
+                        multiplosde3 += i;
+                    }
+                    if(i % 5 === 0) {
+                        multiplosrepetidos.push (i);
+                        multiplosde5 += i;
+                    }
+                }
+
+                const multiplosunicos = new Set();
+
+                multiplosrepetidos.forEach((multiplo) => {
+                    multiplosunicos.add(multiplo);
+                });
+
+                var arr = [...multiplosunicos.values()];
+
+                var soma = arr.reduce(function(soma, i) {
+                    return soma + i;
+                });
+
+                console.log (soma);
+            }
+    </script>
+</html>
